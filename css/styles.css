@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --color-red: #f03c42;
+  --color-blue: #222374;
+  --color-gray: #cccccc;
+  --color-white: #ffffff;
+  --color-black: #000000;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+header {
+    background-color: var(--color-red);
+    height: 100px;
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 18px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-aligment {
+    display: flex;
+    align-items: center;
+}
+
+#follow-me {
+    height: 418px;
+    background-color: var(--color-blue);
+}
+
+#follow-me h2 {
+    color: var(--color-white);
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-fitness {
+    background-color: var(--color-gray);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#follow-me h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#follow-me p {
+    font-size: 14px;
+}
+
+#genre {
+    height: 880px;
+    background-color: var(--color-white);
+}
+
+#genre h2 {
+    color: var(--color-red);
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#genre h3 {
+    font-size: 20px;
+    color: var(--color-white);
+    padding-bottom: 20px;
+}
+
+#genre p {
+    color: var(--color-gray);
+    font-size: 14px;
+}
+
+.card-genre {
+    background-color: var(--color-blue);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {    
+    height: 262px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
